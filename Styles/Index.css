@@ -1,11 +1,12 @@
 body {
-background-image:url(background);
+background-color: #ac62af53;
 font-family: 'popins', sans-serif;
 }
 
 .container {
 margin: 0 auto;
 width: 600px;
+border-radius: 8px;
 background-color: rgb(162, 133, 180);
 box-shadow: 0 0 10px rgba(242, 42, 165, 0.2);
 }
@@ -36,12 +37,7 @@ p:last-of-type {
 margin-bottom: 0;
 }
 
-@media screen {
-.container {
-width: 100%;
-padding: 20px;
-}
-}
+
 h1 {
 font-size: 2.5rem;
 margin-top: 30px;
@@ -56,13 +52,19 @@ p {
 font-size: 1rem;
 }
 
+.button {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 button {
 background-color: #2d172fd8;
 color: rgb(148, 85, 144);
 font-size: 1.2rem;
-border: none;
-border-radius: 5px;
-padding: 10px 20px;
+border: 5px;
+border-radius: 10px;
+padding: 5px 10px;
 cursor: pointer;
 transition: all 0.3s ease;
 }
@@ -86,8 +88,10 @@ to {transform: scale(1.1); rotate: (15deg);}
 
 }
 
+img{
 
-  
-
-
-
+border-radius: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
