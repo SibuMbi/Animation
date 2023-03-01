@@ -4,11 +4,14 @@ font-family: 'popins', sans-serif;
 }
 
 .container {
-margin: 0 auto;
-width: 600px;
+margin: auto;
+max-width: 600px;
+max-height: 700px;
 border-radius: 8px;
-background-color: rgb(162, 133, 180);
-box-shadow: 0 0 10px rgba(242, 42, 165, 0.2);
+background-image:url(../Images/background.jpeg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
   
 h1, h2, p {
