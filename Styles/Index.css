@@ -84,10 +84,10 @@ button:active {
 transform: translateY(2px);
 }
   
-@keyframes pulse {
+@keyframes buttonPulse {
 
-from {transform: scale(1); rotate: (0%);}
-to {transform: scale(1.1); rotate: (15deg);}
+from {transform: scale(none); rotate: (0%);}
+to {transform: scale(none); rotate: (0deg);}
 
 }
 
