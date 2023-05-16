@@ -8,7 +8,7 @@ margin: auto;
 max-width: 600px;
 max-height: 700px;
 border-radius: 8px;
-background-image:url(../Images/background2.jpeg) ;
+background-image:url(../Images/background.jpeg) ;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -93,7 +93,7 @@ to {transform: scale(none); rotate: (0deg);}
 
 img{
 
-border-radius: 48px;
+border-radius: 10%;
 display: flex;
 justify-content: center;
 align-items: center;
