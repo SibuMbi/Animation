@@ -12,6 +12,8 @@ background-image:url(../Images/background.jpeg) ;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
+animation-duration: 6s;
+animation-name: contain;
 }
   
 h1, h2, p {
@@ -84,17 +86,20 @@ button:active {
 transform: translateY(2px);
 }
   
-@keyframes buttonPulse {
-
-from {transform: scale(none); rotate: (0%);}
-to {transform: scale(none); rotate: (0deg);}
-
-}
-
 img{
 
 border-radius: 10%;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+@keyframes contain{
+ 
+50% {transform: translateY(30);
+}
+50% {transform: translateX(-10px);
+}
+50% {transform: translateX(50px);
+}
 }
