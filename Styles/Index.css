@@ -12,7 +12,7 @@ background-image:url(../Images/background.jpeg) ;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
-animation-duration: 6s;
+animation-duration: 10s;
 animation-name: contain;
 }
   
